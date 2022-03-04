@@ -1,2 +1,5 @@
-simple vite-reactjs-boilerplate
-npm run dev to install all dependencies
+# simple vite-reactjs-boilerplate
+
+## install all dependencies
+
+npm run dev
