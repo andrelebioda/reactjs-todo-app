@@ -1,4 +1,5 @@
-@use './fonts';
+@use './fonts' as *;
+@use './variables' as *;
 
 *,
 ::after,
@@ -10,7 +11,8 @@
 
 html,
 body {
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
   font-weight: 400;
+  background-color: $very-dark-blue;
 }
